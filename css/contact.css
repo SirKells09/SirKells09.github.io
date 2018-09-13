@@ -12,33 +12,29 @@ h2 {
 
 }
 
-.control-group {
+/* .control-group { */
     
     /* max-width: 30em; */
-    position: relative;
+    /* position: relative;
     color:#8b3131;
     margin-left: 14em;
-    text-align: center;
+    text-align: center; */
   /* margin-left:12em; */
     /* text-shadow: 2px 1px #8b3131, 1px 2px #c74b16; */
-}
+/* } */
 .form-control {
     text-align: center;
-    /* margin-left: 30em; */
+    /* margin-left: 14em; */
     padding:0%;
     color:#8b3131;
     text-align: center;
-    background: url(../assets/img/img208.jpg);
+    background: url(../assets/img/pic531.jpg);
     border-radius: .5em;
     background-size: 100%;
-    /* text-shadow: 2px 1px #8b3131, 1px 2px #c74b16; */
-    border: #8b3131 solid 2px;
-    
-  }
+    border: #8b3131 solid 2px; 
+}
   input {
-    color:  #8b3131;
-
-    /* text-shadow: 2px 1px #8b3131, 1px 2px #c74b16; */
+    color: #8b3131;
   }
   button {
     text-shadow: -1px 0 whitesmoke, 0 1px whitesmoke, 1px 0 whitesmoke, 0 -1px whitesmoke;
