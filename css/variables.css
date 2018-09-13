@@ -1,0 +1,18 @@
+/* Access's all of file */
+:root {
+    --font1: 'Shadows Into Light', cursive;
+    --font2: 'Condiment', cursive;
+    --font3: 'Rock Salt', cursive;
+    --font4: 'Open Sans', sans-serif;
+    --font5: 'Jim Nightshade', cursive;
+    
+    --blue: #7cafae;
+    --purple: #7E76E8;
+    --pinkgrey: #8b6576;
+    --grey: #1b191c;
+    --beige: #bc772a;
+    --brown: #65402e;
+    --maroon: #631a35;
+    --kellygreen: #055122;
+    --offyellow: #D6F798;
+}

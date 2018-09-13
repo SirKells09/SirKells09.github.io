@@ -1,0 +1,14 @@
+.jumbotron { 
+    /* z-index: 0em;     */
+    text-align: center;
+background: transparent;
+text-shadow: -1px 0 whitesmoke, 0 1px whitesmoke, 1px 0 whitesmoke, 0 -1px whitesmoke;
+color:#8b3131;
+
+
+
+}
+
+.icons {
+    
+}

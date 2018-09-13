@@ -1,0 +1,22 @@
+body {
+    background: url(../assets/img/pic664.jpg) no-repeat center center;
+background-size:  98%;
+background-attachment: fixed;
+  
+}
+label {
+    font-size: 18px;
+    text-shadow: -1px 0 whitesmoke, 0 1px whitesmoke, 1px 0 whitesmoke, 0 -1px whitesmoke;
+    /* margin-left: 30em; */
+    line-height: .5em;
+}
+ul{
+    list-style: none;
+    display: inline-flex;
+    resize: 50%;
+}
+
+img{
+    max-width: 95%;
+    position: relative;
+}
