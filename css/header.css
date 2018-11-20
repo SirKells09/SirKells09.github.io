@@ -1,18 +1,403 @@
-.jumbotron { 
-    position: relative;
-color: black;
-background: url(../assets/img/pic365.jpg) no-repeat;
-min-height: 79vh;
-max-height:95vh;
-padding-top:18em;
-padding-bottom: 15em;
-background-size: 100%;
-
-}
-.lead{
-    font-size:8vh;
-}
-h1 {
-    font-size: 8em;
+.lead {
+    color: white;
+    font-weight: bold;
+    font-family: var(--font4);
+    color: white;
+    text-shadow: -1px 1px 0 var(--black), -1px 1px 0 #0a0e27;
+    position: absolute;
+    z-index: 1;
+    top: 88vh;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+  }
   
-}
+  .leadtext {
+    color: white;
+    font-weight: bold;
+    font-family: var(--font4);
+    color: white;
+    text-shadow: -1px 1px 0 var(--black), -1px 1px 0 #0a0e27;
+    position: absolute;
+    z-index: 1;
+    top: 94vh;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+  }
+  
+  @keyframes fadeInOpacity {
+    0% {
+      opacity: 0;
+    }
+  
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  /* Desktop PC & Responsive */
+  .fade-in {
+    opacity: 1;
+    animation-name: fadeInOpacity;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    animation-duration: 2s;
+    color: rgb(255, 255, 255);
+    font-family: var(--font11);
+    color: white;
+    text-shadow: -1px 1px 0 var(--black), -7px 3px 0 #0a0e27;
+    font-size: 8vw;
+    position: absolute;
+    z-index: 1;
+    top: 65vh;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+  
+  }
+  
+  /* Ipad Pro COMPLETE */
+  @media screen and (max-width: 1024px) {
+    .fade-in {
+      opacity: 1;
+      animation-name: fadeInOpacity;
+      animation-iteration-count: 1;
+      animation-timing-function: ease-in;
+      animation-duration: 2s;
+      color: rgb(255, 255, 255);
+      font-family: var(--font11);
+      color: white;
+      text-shadow: -1px 1px 0 var(--black), -7px 3px 0 #0a0e27;
+      font-size: 8.4vw;
+      position: absolute;
+      z-index: 1;
+      top: 67vh;
+      margin-left: auto;
+      margin-right: auto;
+      left: 0;
+      right: 0;
+    }
+  
+    .lead {
+      color: white;
+      font-weight: bold;
+      font-family: var(--font4);
+      color: white;
+      text-shadow: -1px 1px 0 var(--black), -1px 1px 0 #0a0e27;
+      font-size: 3.5vw;
+      position: absolute;
+      z-index: 1;
+      top: 79vh;
+      margin-left: auto;
+      margin-right: auto;
+      left: 0;
+      right: 0;
+    }
+  
+    .leadtext {
+      color: white;
+      font-weight: bold;
+      font-family: var(--font4);
+      color: white;
+      text-shadow: -1px 1px 0 var(--black), -1px 1px 0 #0a0e27;
+      font-size: 3.5vw;
+      position: absolute;
+      z-index: 1;
+      top: 85vh;
+      margin-left: auto;
+      margin-right: auto;
+      left: 0;
+      right: 0;
+    }
+  }
+  
+  /* Ipad COMPLETE */
+  @media screen and (max-width: 769px) {
+    .fade-in {
+      opacity: 1;
+      animation-name: fadeInOpacity;
+      animation-iteration-count: 1;
+      animation-timing-function: ease-in;
+      animation-duration: 2s;
+      color: rgb(255, 255, 255);
+      font-family: var(--font11);
+      color: white;
+      text-shadow: -1px 1px 0 var(--black), -7px 3px 0 #0a0e27;
+      font-size: 8.4vw;
+      position: absolute;
+      z-index: 1;
+      top: 71vh;
+      margin-left: auto;
+      margin-right: auto;
+      left: 0;
+      right: 0;
+    }
+  
+    .lead {
+      color: white;
+      font-weight: bold;
+      font-family: var(--font4);
+      color: white;
+      text-shadow: -1px 1px 0 var(--black), -1px 1px 0 #0a0e27;
+      font-size: 3.5vw;
+      position: absolute;
+      z-index: 1;
+      top: 81vh;
+      margin-left: auto;
+      margin-right: auto;
+      left: 0;
+      right: 0;
+    }
+  
+    .leadtext {
+      color: white;
+      font-weight: bold;
+      font-family: var(--font4);
+      color: white;
+      text-shadow: -1px 1px 0 var(--black), -1px 1px 0 #0a0e27;
+      font-size: 3.5vw;
+      position: absolute;
+      z-index: 1;
+      top: 87vh;
+      margin-left: auto;
+      margin-right: auto;
+      left: 0;
+      right: 0;
+    }
+  }
+  
+  /* Iphone 6/7/8 Plus COMPLETE */
+  @media screen and (max-width: 414px) {
+    .fade-in {
+      opacity: 1;
+      animation-name: fadeInOpacity;
+      animation-iteration-count: 1;
+      animation-timing-function: ease-in;
+      animation-duration: 2s;
+      color: rgb(255, 255, 255);
+      font-family: var(--font11);
+      color: white;
+      text-shadow: -1px 1px 0 var(--black), -7px 3px 0 #0a0e27;
+      font-size: 8.5vw;
+      position: absolute;
+      z-index: 1;
+      top: 64vh;
+      margin-left: auto;
+      margin-right: auto;
+      left: 0;
+      right: 0;
+    }
+  
+    .lead {
+      color: white;
+      font-weight: bold;
+      font-family: var(--font4);
+      color: white;
+      text-shadow: -1px 1px 0 var(--black), -1px 1px 0 #0a0e27;
+      font-size: 3.5vw;
+      position: absolute;
+      z-index: 1;
+      top: 73vh;
+      margin-left: auto;
+      margin-right: auto;
+      left: 0;
+      right: 0;
+    }
+  
+    .leadtext {
+      color: white;
+      font-weight: bold;
+      font-family: var(--font4);
+      color: white;
+      text-shadow: -1px 1px 0 var(--black), -1px 1px 0 #0a0e27;
+      font-size: 4vw;
+      position: absolute;
+      z-index: 1;
+      top: 78vh;
+      margin-left: auto;
+      margin-right: auto;
+      left: 0;
+      right: 0;
+    }
+  }
+  
+  /* Pixel 2 & Pixel 2 XL & iPhone 6/7/8 & iPhone X COMPLETE */
+  @media screen and (max-width: 412px) {
+    .fade-in {
+      opacity: 1;
+      animation-name: fadeInOpacity;
+      animation-iteration-count: 1;
+      animation-timing-function: ease-in;
+      animation-duration: 2s;
+      color: rgb(255, 255, 255);
+      font-family: var(--font11);
+      color: white;
+      text-shadow: -1px 1px 0 var(--black), -7px 3px 0 #0a0e27;
+      font-size: 8.5vw;
+      position: absolute;
+      z-index: 1;
+      top: 65vh;
+      margin-left: auto;
+      margin-right: auto;
+      left: 0;
+      right: 0;
+    }
+  
+    .lead {
+      color: white;
+      font-weight: bold;
+      font-family: var(--font4);
+      color: white;
+      text-shadow: -1px 1px 0 var(--black), -1px 1px 0 #0a0e27;
+      font-size: 3.5vw;
+      position: absolute;
+      z-index: 1;
+      top: 73vh;
+      margin-left: auto;
+      margin-right: auto;
+      left: 0;
+      right: 0;
+    }
+  
+    .leadtext {
+      color: white;
+      font-weight: bold;
+      font-family: var(--font4);
+      color: white;
+      text-shadow: -1px 1px 0 var(--black), -1px 1px 0 #0a0e27;
+      font-size: 4.5vw;
+      position: absolute;
+      z-index: 1;
+      top: 78vh;
+      margin-left: auto;
+      margin-right: auto;
+      left: 0;
+      right: 0;
+    }
+  }
+  
+  /* Iphone 5/SE & Galaxy S5 */
+  @media screen and (max-width: 375px) {
+    .fade-in {
+      opacity: 1;
+      animation-name: fadeInOpacity;
+      animation-iteration-count: 1;
+      animation-timing-function: ease-in;
+      animation-duration: 2s;
+      color: rgb(255, 255, 255);
+      font-family: var(--font11);
+      color: white;
+      text-shadow: -1px 1px 0 var(--black), -7px 3px 0 #0a0e27;
+      font-size: 8.5vw;
+      position: absolute;
+      z-index: 1;
+      top: 65vh;
+      margin-left: auto;
+      margin-right: auto;
+      left: 0;
+      right: 0;
+    }
+  
+    .lead {
+      color: white;
+      font-weight: bold;
+      font-family: var(--font4);
+      color: white;
+      text-shadow: -1px 1px 0 var(--black), -1px 1px 0 #0a0e27;
+      font-size: 3.5vw;
+      position: absolute;
+      z-index: 1;
+      top: 73vh;
+      margin-left: auto;
+      margin-right: auto;
+      left: 0;
+      right: 0;
+    }
+  
+    .leadtext {
+      color: white;
+      font-weight: bold;
+      font-family: var(--font4);
+      color: white;
+      text-shadow: -1px 1px 0 var(--black), -1px 1px 0 #0a0e27;
+      font-size: 4.5vw;
+      position: absolute;
+      z-index: 1;
+      top: 78vh;
+      margin-left: auto;
+      margin-right: auto;
+      left: 0;
+      right: 0;
+    }
+  }
+  
+  /* BACKGROUND IMAGE */
+  
+  /* Desktop */
+  .jumbo {
+    background: url("../assets/img/pic365.jpg") center;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+    text-align: center;
+  }
+  
+  /* Responsive */
+  @media screen and (max-width: 1157px) {
+    .jumbo {
+      background: url("../assets/img/pic365.jpg") center;
+      background-attachment: fixed;
+      background-size: cover;
+      height: 100vh;
+      text-align: center;
+    }
+  }
+  
+  /* Ipad Pro COMPLETE */
+  @media screen and (max-width: 1024px) {
+    .jumbo {
+      background: url("../assets/img/pic365.jpg") center;
+      background-attachment: scroll;
+      background-size: cover;
+    }
+  }
+  
+  /* Ipad COMPLETE */
+  @media screen and (max-width: 769px) {
+    .jumbo {
+      background: url("../assets/img/pic365.jpg") center;
+      background-attachment: scroll;
+      background-size: cover;
+    }
+  }
+  
+  /* Iphone 6/7/8 Plus COMPLETE */
+  @media screen and (max-width: 414px) {
+    .jumbo {
+      background: url("../assets/img/pic365.jpg") center;
+      background-attachment: scroll;
+      background-size: cover;
+    }
+  }
+  
+  /* Pixel 2 & Pixel 2 XL & iPhone 6/7/8 & iPhone X COMPLETE */
+  @media screen and (max-width: 412px) {
+    .jumbo {
+      background: url("../assets/img/pic365.jpg") center;
+      background-attachment: scroll;
+      background-size: cover;
+    }
+  }
+  
+  /* Iphone 5/SE & Galaxy S5 */
+  @media screen and (max-width: 375px) {
+    .jumbo {
+      background: url("../assets/img/pic365.jpg") center;
+      background-attachment: scroll;
+      background-size: cover;
+    }
+  }

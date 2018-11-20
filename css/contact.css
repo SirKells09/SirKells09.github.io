@@ -1,69 +1,107 @@
-.contactBack{
-    position: relative;
-    height: 25em;
-    width: 35em;
-    background: url(..//assets/img/img859.jpg);
+input {
+    text-align: center;
+  }
+  
+  label {
+    color: white;
+  }
+  
+  /* Desktop PC & Responsive */
+  .contactBox {
+    margin: auto;
+    width: 80vh;
+    top: 20vh;
+    text-align: center;
+  }
+  
+  .conactBackground{
+    background-image: url("..//assets/img/pexels-photo-1029612.jpeg");
+    min-height: 80vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
-    border-radius: .5em;
-    align-content: center;
-    text-shadow: 2px 2px #ffffff;
-    
-   }
-
-.container {
-    display: inline;
-}
-
-h2{
-    font-size:3em;
-}
-
-.form-control {
-    position: inherit;
-    height: 13em;
-    width: 15em;
-    border-radius: .5em;
-    border: whitesmoke solid 2px;
-    color: whitesmoke ;
-    border: black solid 2px;
-
-}
-
-#name{  
-    position: inherit;
-    height: 6vh;
-    width: 15em;
-    border-radius: .5em;
-}
-
-#email { 
-    position: inherit;
-    height: 6vh;
-    width: 15em;
-    border-radius: .5em;
-
-}
-.wrapper{
-font-size: 6em;
-    display:flex;
-    justify-content:center;
-    text-align: center;
-}
-button {
-    padding-bottom: 32px;
-    display: inline-block;
-    margin-top:.5em;
-    height: 5vh;
-    line-height: 22px;
-    font-size: 7em;
-    color: black;
-    text-shadow:  2px 2px #ffffff;
-}
-
-label {
-    margin-left: 1em;
-    margin-bottom:-6px;
-    text-align: center;
-    font-size: 4vh;
-    font-style: bold;
-}
+  }
+  
+  /* Ipad Pro COMPLETE */
+  @media screen and (max-width: 1024px) {
+    .contactBox {
+      margin: auto;
+      width: 45vh;
+      top: 20vh;
+      text-align: center;
+    }
+  
+    .contactBackground {
+      background-image: url("..//assets/img/pexels-photo-1029612.jpeg");
+      background-attachment: scroll;
+      background-size: cover;
+      background-position: center;
+      height: 50vh;
+  }
+  }
+  
+  /* Ipad COMPLETE */
+  @media screen and (max-width: 769px) {
+    .contactBox {
+      margin: auto;
+      width: 55vh;
+      top: 20vh;
+      text-align: center;
+    }
+    .contactBackground {
+      background-image: url("..//assets/img/pexels-photo-1029612.jpeg");
+      background-attachment: scroll;
+      background-size: cover;
+      background-position: center;
+  }
+  }
+  
+  /* Iphone 6/7/8 Plus COMPLETE */
+  @media screen and (max-width: 414px) {
+    .contactBox {
+      margin: auto;
+      width: 43vh;
+      top: 20vh;
+      text-align: center;
+    }
+    .contactBackground {
+      background-image: url("..//assets/img/pexels-photo-1029612.jpeg");
+      background-attachment: scroll;
+      background-size: cover;
+      background-position: center;
+  }
+  }
+  
+  /* Pixel 2 & Pixel 2 XL & iPhone 6/7/8 & iPhone X COMPLETE */
+  @media screen and (max-width: 412px) {
+    .contactBox {
+      margin: auto;
+      width: 43vh;
+      top: 20vh;
+      text-align: center;
+    }
+    .contactBackground{
+      background-image: url("..//assets/img/pexels-photo-1029612.jpeg");
+      background-attachment: scroll;
+      background-size: cover;
+      background-position: center;
+      height: 110vh;
+  }
+  }
+  
+  /* Iphone 5/SE & Galaxy S5 */
+  @media screen and (max-width: 375px) {
+    .contactBox {
+      margin: auto;
+      width: 43vh;
+      top: 20vh;
+      text-align: center;
+    }
+    .contactBackground {
+      background-image: url("..//assets/img/pexels-photo-1029612.jpeg");
+      background-attachment: scroll;
+      background-size: cover;
+      background-position: center;
+  }
+  }

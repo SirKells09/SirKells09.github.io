@@ -1,9 +1,6 @@
-html, body { 
-    height: 100%; 
-}
 
 body {
-    background: #ffffff;
+    background: whitesmoke;
    
 }
 
@@ -28,12 +25,6 @@ body {
 #about{ 
     float: center;
     margin-left: -2.5em;
-}
-
-.imgK{
-    border-radius:.5em;
-    width: 15vw;
-    height: auto;
 }
 
 h1{

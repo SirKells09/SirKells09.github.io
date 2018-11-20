@@ -1,11 +1,12 @@
 .nav-bar-right {
     list-style-type: none;
-    font-size: 6.5vh;
-   margin:em;
+    font-size: 4.5vh;
    float: right;
 }
 nav{
+    background-color: whitesmoke;
     list-style: none;
+    fill-opacity: 55%;
 }
 
 

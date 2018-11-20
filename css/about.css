@@ -1,0 +1,47 @@
+.coverPhoto {
+    margin-top:2.3em;
+    margin-left: 1em;
+    width: 320px;
+    height: 500px;
+    float: center;
+    border-radius: .5em;
+  }
+
+  
+h2 {
+    font-family: var(--font11);
+    color: whitesmoke;
+  }
+  
+  p {
+    color: white;
+  
+  }
+  
+  span {
+    width: 5em;
+  }
+  
+  .imgskills {
+    font-size: 10em;
+    color: whitesmoke;
+  }
+  
+  b {
+    color: white;
+    font-family: var(--font4);
+  }
+  
+  span {
+    color: whitesmoke;
+  }
+  
+  a {
+    text-align: center;
+  
+  }
+  
+  a:hover {
+    background-color: orange;
+  }
+  
