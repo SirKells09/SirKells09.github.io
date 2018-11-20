@@ -1,23 +1,42 @@
-body {
-    background: url(../assets/img/pic664.jpg) no-repeat center center;
-background-size:  98%;
-background-attachment: fixed;
-text-align: center;
-  
-}
-label {
-    font-size: 18px;
-    text-shadow: -1px 0 whitesmoke, 0 1px whitesmoke, 1px 0 whitesmoke, 0 -1px whitesmoke;
-    /* margin-left: 30em; */
-    line-height: .5em;
-}
-ul{
-    list-style: none;
-    display: inline-flex;
-    resize: 50%;
+html, body { 
+    height: 100%; 
 }
 
-img{
-    max-width: 95%;
-    position: relative;
+body {
+    background: #ffffff;
+   
+}
+
+/* middle icons js/css/html Loves underneath*/
+
+.skills {
+    float:center;
+    margin-top:2em;
+    display: inline-flex;
+    list-style: none;
+}
+
+
+.imgSkills{
+    width: 8.5vw;
+    height: auto;
+}
+
+
+/* about me and pic of me*/
+
+#about{ 
+    float: center;
+    margin-left: -2.5em;
+}
+
+.imgK{
+    border-radius:.5em;
+    width: 15vw;
+    height: auto;
+}
+
+h1{
+    display: inline-flex;
+    font-size: 6vh;
 }

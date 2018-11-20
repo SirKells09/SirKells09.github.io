@@ -1,10 +1,18 @@
 .jumbotron { 
-    /* z-index: 0em;     */
-    text-align: center;
-background: transparent;
-text-shadow: -1px 0 whitesmoke, 0 1px whitesmoke, 1px 0 whitesmoke, 0 -1px whitesmoke;
-color:#8b3131;
+    position: relative;
+color: black;
+background: url(../assets/img/pic365.jpg) no-repeat;
+min-height: 79vh;
+max-height:95vh;
+padding-top:18em;
+padding-bottom: 15em;
+background-size: 100%;
 
-
-
+}
+.lead{
+    font-size:8vh;
+}
+h1 {
+    font-size: 8em;
+  
 }
