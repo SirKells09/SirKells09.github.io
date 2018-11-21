@@ -14,8 +14,10 @@
    
   }
 
-  
-h2 {
+  h2{
+    color: black;
+  }
+h1,h3 {
     font-family: var(--font11);
     color: whitesmoke;
   }
@@ -30,18 +32,11 @@ h2 {
   }
   
   .imgskills {
-    font-size: em;
     color: black;
   }
   
-  b {
-    color: black;
-    font-family: var(--font4);
-  }
-  
-  span {
-    color: black;
-  }
+
+
   
   a {
     text-align: center;

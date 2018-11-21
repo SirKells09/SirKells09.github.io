@@ -6,3 +6,20 @@
 }
 
 
+
+.skillsList {
+  float:center;
+  margin-top:2em;
+  display: inline-flex;
+  list-style: none;
+}
+
+i {
+  margin-top: 10px;
+}
+
+.imgSkills{
+  width: 3vw;
+  height: auto;
+}
+
