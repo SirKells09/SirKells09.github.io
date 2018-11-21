@@ -1,5 +1,6 @@
 input {
     text-align: center;
+    width: auto;
   }
   
   label {
@@ -9,8 +10,8 @@ input {
   /* Desktop PC & Responsive */
   .contactBox {
     margin: auto;
-    width: 80vh;
-    top: 20vh;
+    width: 90vh;
+    top: 15vh;
     text-align: center;
   }
   
@@ -19,7 +20,6 @@ input {
     min-height: 80vh;
     background-attachment: fixed;
     background-position: center;
-    background-repeat: no-repeat;
     background-size: cover;
   }
   
@@ -37,12 +37,12 @@ input {
       background-attachment: scroll;
       background-size: cover;
       background-position: center;
-      height: 50vh;
+      height: 60vh;
   }
   }
   
   /* Ipad COMPLETE */
-  @media screen and (max-width: 769px) {
+  @media screen and (max-width: 769px) and (min-width: 576px)  {
     .contactBox {
       margin: auto;
       width: 55vh;
@@ -58,7 +58,7 @@ input {
   }
   
   /* Iphone 6/7/8 Plus COMPLETE */
-  @media screen and (max-width: 414px) {
+  @media screen and (max-width: 414px) and (min-width: 768px) {
     .contactBox {
       margin: auto;
       width: 43vh;
@@ -74,7 +74,7 @@ input {
   }
   
   /* Pixel 2 & Pixel 2 XL & iPhone 6/7/8 & iPhone X COMPLETE */
-  @media screen and (max-width: 412px) {
+  @media screen and (max-width: 412px) and (min-width: 992px) {
     .contactBox {
       margin: auto;
       width: 43vh;
@@ -91,7 +91,7 @@ input {
   }
   
   /* Iphone 5/SE & Galaxy S5 */
-  @media screen and (max-width: 375px) {
+  @media screen and (max-width: 375px) and (min-width: 1200px){
     .contactBox {
       margin: auto;
       width: 43vh;

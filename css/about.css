@@ -1,20 +1,25 @@
-.coverPhoto {
+.mr-1 {
     margin-top:2.3em;
     margin-left: 1em;
-    width: 320px;
-    height: 500px;
+    width: 60vw;
+    height: auto;
     float: center;
     border-radius: .5em;
+  }
+
+  .media-body{
+    background-color: beige;
+   
   }
 
   
 h2 {
     font-family: var(--font11);
-    color: whitesmoke;
+    color: black;
   }
   
   p {
-    color: white;
+    color: black;
   
   }
   
@@ -24,16 +29,16 @@ h2 {
   
   .imgskills {
     font-size: 10em;
-    color: whitesmoke;
+    color: black;
   }
   
   b {
-    color: white;
+    color: black;
     font-family: var(--font4);
   }
   
   span {
-    color: whitesmoke;
+    color: black;
   }
   
   a {
@@ -42,6 +47,6 @@ h2 {
   }
   
   a:hover {
-    background-color: orange;
+    background-color: lavender;
   }
   

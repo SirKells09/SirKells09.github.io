@@ -1,8 +1,8 @@
 .lead {
-    color: white;
+    color: black;
     font-weight: bold;
     font-family: var(--font4);
-    color: white;
+    color: black;
     text-shadow: -1px 1px 0 var(--black), -1px 1px 0 #0a0e27;
     position: absolute;
     z-index: 1;
@@ -14,10 +14,10 @@
   }
   
   .leadtext {
-    color: white;
+    color: black;
     font-weight: bold;
     font-family: var(--font4);
-    color: white;
+    color: black;
     text-shadow: -1px 1px 0 var(--black), -1px 1px 0 #0a0e27;
     position: absolute;
     z-index: 1;
@@ -47,7 +47,7 @@
     animation-duration: 2s;
     color: rgb(255, 255, 255);
     font-family: var(--font11);
-    color: white;
+    color: black;
     text-shadow: -1px 1px 0 var(--black), -7px 3px 0 #0a0e27;
     font-size: 8vw;
     position: absolute;
@@ -70,7 +70,7 @@
       animation-duration: 2s;
       color: rgb(255, 255, 255);
       font-family: var(--font11);
-      color: white;
+      color: black;
       text-shadow: -1px 1px 0 var(--black), -7px 3px 0 #0a0e27;
       font-size: 8.4vw;
       position: absolute;
@@ -83,10 +83,10 @@
     }
   
     .lead {
-      color: white;
+      color: black;
       font-weight: bold;
       font-family: var(--font4);
-      color: white;
+      color: black;
       text-shadow: -1px 1px 0 var(--black), -1px 1px 0 #0a0e27;
       font-size: 3.5vw;
       position: absolute;
@@ -99,10 +99,10 @@
     }
   
     .leadtext {
-      color: white;
+      color: black;
       font-weight: bold;
       font-family: var(--font4);
-      color: white;
+      color: black;
       text-shadow: -1px 1px 0 var(--black), -1px 1px 0 #0a0e27;
       font-size: 3.5vw;
       position: absolute;
@@ -125,7 +125,7 @@
       animation-duration: 2s;
       color: rgb(255, 255, 255);
       font-family: var(--font11);
-      color: white;
+      color: black;
       text-shadow: -1px 1px 0 var(--black), -7px 3px 0 #0a0e27;
       font-size: 8.4vw;
       position: absolute;
@@ -138,10 +138,10 @@
     }
   
     .lead {
-      color: white;
+      color: black;
       font-weight: bold;
       font-family: var(--font4);
-      color: white;
+      color: black;
       text-shadow: -1px 1px 0 var(--black), -1px 1px 0 #0a0e27;
       font-size: 3.5vw;
       position: absolute;
@@ -154,10 +154,10 @@
     }
   
     .leadtext {
-      color: white;
+      color: black;
       font-weight: bold;
       font-family: var(--font4);
-      color: white;
+      color: black;
       text-shadow: -1px 1px 0 var(--black), -1px 1px 0 #0a0e27;
       font-size: 3.5vw;
       position: absolute;
@@ -180,7 +180,7 @@
       animation-duration: 2s;
       color: rgb(255, 255, 255);
       font-family: var(--font11);
-      color: white;
+      color: black;
       text-shadow: -1px 1px 0 var(--black), -7px 3px 0 #0a0e27;
       font-size: 8.5vw;
       position: absolute;
@@ -193,10 +193,10 @@
     }
   
     .lead {
-      color: white;
+      color: black;
       font-weight: bold;
       font-family: var(--font4);
-      color: white;
+      color: black;
       text-shadow: -1px 1px 0 var(--black), -1px 1px 0 #0a0e27;
       font-size: 3.5vw;
       position: absolute;
@@ -209,10 +209,10 @@
     }
   
     .leadtext {
-      color: white;
+      color: black;
       font-weight: bold;
       font-family: var(--font4);
-      color: white;
+      color: black;
       text-shadow: -1px 1px 0 var(--black), -1px 1px 0 #0a0e27;
       font-size: 4vw;
       position: absolute;
@@ -235,7 +235,7 @@
       animation-duration: 2s;
       color: rgb(255, 255, 255);
       font-family: var(--font11);
-      color: white;
+      color: black;
       text-shadow: -1px 1px 0 var(--black), -7px 3px 0 #0a0e27;
       font-size: 8.5vw;
       position: absolute;
@@ -248,10 +248,10 @@
     }
   
     .lead {
-      color: white;
+      color: black;
       font-weight: bold;
       font-family: var(--font4);
-      color: white;
+      color: black;
       text-shadow: -1px 1px 0 var(--black), -1px 1px 0 #0a0e27;
       font-size: 3.5vw;
       position: absolute;
@@ -264,10 +264,10 @@
     }
   
     .leadtext {
-      color: white;
+      color: black;
       font-weight: bold;
       font-family: var(--font4);
-      color: white;
+      color: black;
       text-shadow: -1px 1px 0 var(--black), -1px 1px 0 #0a0e27;
       font-size: 4.5vw;
       position: absolute;
@@ -290,7 +290,7 @@
       animation-duration: 2s;
       color: rgb(255, 255, 255);
       font-family: var(--font11);
-      color: white;
+      color: black;
       text-shadow: -1px 1px 0 var(--black), -7px 3px 0 #0a0e27;
       font-size: 8.5vw;
       position: absolute;
@@ -303,10 +303,10 @@
     }
   
     .lead {
-      color: white;
+      color: black;
       font-weight: bold;
       font-family: var(--font4);
-      color: white;
+      color: black;
       text-shadow: -1px 1px 0 var(--black), -1px 1px 0 #0a0e27;
       font-size: 3.5vw;
       position: absolute;
@@ -319,10 +319,10 @@
     }
   
     .leadtext {
-      color: white;
+      color: black;
       font-weight: bold;
       font-family: var(--font4);
-      color: white;
+      color: black;
       text-shadow: -1px 1px 0 var(--black), -1px 1px 0 #0a0e27;
       font-size: 4.5vw;
       position: absolute;

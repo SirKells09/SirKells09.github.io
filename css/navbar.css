@@ -1,21 +1,23 @@
-.nav-bar-right {
-    list-style-type: none;
-    font-size: 4.5vh;
-   float: right;
-}
-nav{
+.dropdown-menu {
     background-color: whitesmoke;
-    list-style: none;
-    fill-opacity: 55%;
-}
-
+  }
+  
+  .dropdown-item {
+    color: whitesmoke;
+    display: block;
+  }
+  
+  .navbar-fixed{
+    background-color: black;
+    transition: 200ms linear;
+  }
 
 .resumeIcon {
     margin-top:-.5em;
     width:auto;
     height:8vh;
 }
-a{
+a {
     margin-top:.4em;
     padding:.1em;
 }
