@@ -1,42 +1,4 @@
-.lead {
-    color: black;
-    font-weight: bold;
-    font-family: var(--font4);
-    color: black;
-    text-shadow: -1px 1px 0 var(--black), -1px 1px 0 #0a0e27;
-    position: absolute;
-    z-index: 1;
-    top: 88vh;
-    margin-left: auto;
-    margin-right: auto;
-    left: 0;
-    right: 0;
-  }
-  
-  .leadtext {
-    color: black;
-    font-weight: bold;
-    font-family: var(--font4);
-    color: black;
-    text-shadow: -1px 1px 0 var(--black), -1px 1px 0 #0a0e27;
-    position: absolute;
-    z-index: 1;
-    top: 94vh;
-    margin-left: auto;
-    margin-right: auto;
-    left: 0;
-    right: 0;
-  }
-  
-  @keyframes fadeInOpacity {
-    0% {
-      opacity: 0;
-    }
-  
-    100% {
-      opacity: 1;
-    }
-  }
+
   
   /* Desktop PC & Responsive */
   .fade-in {
@@ -52,7 +14,7 @@
     font-size: 8vw;
     position: absolute;
     z-index: 1;
-    top: 65vh;
+    top: 55vh;
     margin-left: auto;
     margin-right: auto;
     left: 0;
