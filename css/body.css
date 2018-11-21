@@ -1,12 +1,11 @@
 
 body {
-    background: whitesmoke;
    
 }
 
 /* middle icons js/css/html Loves underneath*/
 
-.skills {
+.skillsList {
     float:center;
     margin-top:2em;
     display: inline-flex;
@@ -15,17 +14,12 @@ body {
 
 
 .imgSkills{
-    width: 8.5vw;
+    width: 20vw;
     height: auto;
 }
 
 
 /* about me and pic of me*/
-
-#about{ 
-    float: center;
-    margin-left: -2.5em;
-}
 
 h1{
     display: inline-flex;
