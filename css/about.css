@@ -12,6 +12,10 @@
 
    
   }
+  .carousel-inner{ 
+border-radius: 1em;
+   
+  }
  
     a {
     text-align: center;
