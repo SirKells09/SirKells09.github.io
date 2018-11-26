@@ -4,6 +4,8 @@
 /* about me and pic of me*/
 
 h1{
+    font-family: 'Nothing You Could Do', cursive;
+
     display: inline-flex;
     font-size: 6vh;
 }

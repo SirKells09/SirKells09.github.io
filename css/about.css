@@ -15,14 +15,22 @@
   }
 
   h2{
+    font-family: 'Nothing You Could Do';
+
     color: black;
   }
-h1,h3 {
-    font-family: var(--font11);
-    color: whitesmoke;
+  h3{
+    font-family: 'Nothing You Could Do', cursive;
+
+  }
+h1{
+  font-family: 'Cinzel Decorative', cursive;
+
+   color: whitesmoke;
   }
   
   p {
+    font-family: 'Nothing You Could Do';
     color: black;
   
   }
