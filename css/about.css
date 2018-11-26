@@ -4,8 +4,7 @@
 
 .about {
   height: 80vh;
-  box-sizing: border-box;
-  display:block;
+  width: 95vw;
 }
 
   .carousel{ 
@@ -13,12 +12,6 @@
 
    
   }
-
-
-  span {
-    width: 5em;
-  }
-  
  
     a {
     text-align: center;

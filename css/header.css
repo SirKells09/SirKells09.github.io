@@ -11,49 +11,10 @@
 }
 
   
-  /* Desktop PC & Responsive */
-  .fade-in {
-    opacity: 1;
-    animation-name: fadeInOpacity;
-    animation-iteration-count: 1;
-    animation-timing-function: ease-in;
-    animation-duration: 2s;
-    color: rgb(255, 255, 255);
-    font-family: var(--font11);
-    color: whitesmoke;
-    text-shadow: -1px 1px 0 var(--black), -7px 3px 0 #0a0e27;
-    font-size: 8vw;
-    position: absolute;
-    z-index: 1;
-    top: 55vh;
-    margin-left: auto;
-    margin-right: auto;
-    left: 0;
-    right: 0;
-  
-  }
-  
+
   /* Ipad Pro COMPLETE */
   @media screen and (max-width: 1024px) {
-    .fade-in {
-      opacity: 1;
-      animation-name: fadeInOpacity;
-      animation-iteration-count: 1;
-      animation-timing-function: ease-in;
-      animation-duration: 2s;
-      color: rgb(255, 255, 255);
-      font-family: var(--font11);
-      color: whitesmoke;
-      text-shadow: -1px 1px 0 var(--black), -7px 3px 0 #0a0e27;
-      font-size: 8.4vw;
-      position: absolute;
-      z-index: 1;
-      top: 67vh;
-      margin-left: auto;
-      margin-right: auto;
-      left: 0;
-      right: 0;
-    }
+
   
     .lead {
       color: whitesmoke;
@@ -61,8 +22,6 @@
       font-family: var(--font4);
       text-shadow: -1px 1px 0 var(--black), -1px 1px 0 #0a0e27;
       font-size: 3.5vw;
-      position: absolute;
-      z-index: 1;
       top: 79vh;
       margin-left: auto;
       margin-right: auto;
@@ -77,8 +36,6 @@
       color:whitesmoke;
       text-shadow: -1px 1px 0 var(--black), -1px 1px 0 #0a0e27;
       font-size: 3.5vw;
-      position: absolute;
-      z-index: 1;
       top: 85vh;
       margin-left: auto;
       margin-right: auto;
@@ -89,25 +46,7 @@
   
   /* Ipad COMPLETE */
   @media screen and (max-width: 769px) {
-    .fade-in {
-      opacity: 1;
-      animation-name: fadeInOpacity;
-      animation-iteration-count: 1;
-      animation-timing-function: ease-in;
-      animation-duration: 2s;
-      color: rgb(255, 255, 255);
-      font-family: var(--font11);
-      color:whitesmoke;
-      text-shadow: -1px 1px 0 var(--black), -7px 3px 0 #0a0e27;
-      font-size: 8.4vw;
-      position: absolute;
-      z-index: 1;
-      top: 71vh;
-      margin-left: auto;
-      margin-right: auto;
-      left: 0;
-      right: 0;
-    }
+
   
     .lead {
       color:whitesmoke;
@@ -116,8 +55,6 @@
       color:whitesmoke;
       text-shadow: -1px 1px 0 var(--black), -1px 1px 0 #0a0e27;
       font-size: 3.5vw;
-      position: absolute;
-      z-index: 1;
       top: 81vh;
       margin-left: auto;
       margin-right: auto;
@@ -132,8 +69,6 @@
       color:whitesmoke;
       text-shadow: -1px 1px 0 var(--black), -1px 1px 0 #0a0e27;
       font-size: 3.5vw;
-      position: absolute;
-      z-index: 1;
       top: 87vh;
       margin-left: auto;
       margin-right: auto;
@@ -144,26 +79,7 @@
   
   /* Iphone 6/7/8 Plus COMPLETE */
   @media screen and (max-width: 414px) {
-    .fade-in {
-      opacity: 1;
-      animation-name: fadeInOpacity;
-      animation-iteration-count: 1;
-      animation-timing-function: ease-in;
-      animation-duration: 2s;
-      color: rgb(255, 255, 255);
-      font-family: var(--font11);
-      color:whitesmoke;
-      text-shadow: -1px 1px 0 var(--black), -7px 3px 0 #0a0e27;
-      font-size: 8.5vw;
-      position: absolute;
-      z-index: 1;
-      top: 64vh;
-      margin-left: auto;
-      margin-right: auto;
-      left: 0;
-      right: 0;
-    }
-  
+
     .lead {
       color:whitesmoke;
       font-weight: bold;
@@ -171,8 +87,7 @@
       color:whitesmoke;
       text-shadow: -1px 1px 0 var(--black), -1px 1px 0 #0a0e27;
       font-size: 3.5vw;
-      position: absolute;
-      z-index: 1;
+    
       top: 73vh;
       margin-left: auto;
       margin-right: auto;
@@ -187,8 +102,6 @@
       color:whitesmoke;
       text-shadow: -1px 1px 0 var(--black), -1px 1px 0 #0a0e27;
       font-size: 4vw;
-      position: absolute;
-      z-index: 1;
       top: 78vh;
       margin-left: auto;
       margin-right: auto;
@@ -199,25 +112,6 @@
   
   /* Pixel 2 & Pixel 2 XL & iPhone 6/7/8 & iPhone X COMPLETE */
   @media screen and (max-width: 412px) {
-    .fade-in {
-      opacity: 1;
-      animation-name: fadeInOpacity;
-      animation-iteration-count: 1;
-      animation-timing-function: ease-in;
-      animation-duration: 2s;
-      color: rgb(255, 255, 255);
-      font-family: var(--font11);
-      color:whitesmoke;
-      text-shadow: -1px 1px 0 var(--black), -7px 3px 0 #0a0e27;
-      font-size: 8.5vw;
-      position: absolute;
-      z-index: 1;
-      top: 65vh;
-      margin-left: auto;
-      margin-right: auto;
-      left: 0;
-      right: 0;
-    }
   
     .lead {
       color:whitesmoke;
@@ -226,8 +120,6 @@
       color:whitesmoke;
       text-shadow: -1px 1px 0 var(--black), -1px 1px 0 #0a0e27;
       font-size: 3.5vw;
-      position: absolute;
-      z-index: 1;
       top: 73vh;
       margin-left: auto;
       margin-right: auto;
@@ -242,8 +134,6 @@
       color:whitesmoke;
       text-shadow: -1px 1px 0 var(--black), -1px 1px 0 #0a0e27;
       font-size: 4.5vw;
-      position: absolute;
-      z-index: 1;
       top: 78vh;
       margin-left: auto;
       margin-right: auto;
@@ -254,25 +144,7 @@
   
   /* Iphone 5/SE & Galaxy S5 */
   @media screen and (max-width: 375px) {
-    .fade-in {
-      opacity: 1;
-      animation-name: fadeInOpacity;
-      animation-iteration-count: 1;
-      animation-timing-function: ease-in;
-      animation-duration: 2s;
-      color: rgb(255, 255, 255);
-      font-family: var(--font11);
-      color:whitesmoke;
-      text-shadow: -1px 1px 0 var(--black), -7px 3px 0 #0a0e27;
-      font-size: 8.5vw;
-      position: absolute;
-      z-index: 1;
-      top: 65vh;
-      margin-left: auto;
-      margin-right: auto;
-      left: 0;
-      right: 0;
-    }
+ 
   
     .lead {
       color:whitesmoke;
@@ -281,8 +153,6 @@
       color:whitesmoke;
       text-shadow: -1px 1px 0 var(--black), -1px 1px 0 #0a0e27;
       font-size: 3.5vw;
-      position: absolute;
-      z-index: 1;
       top: 73vh;
       margin-left: auto;
       margin-right: auto;
@@ -297,8 +167,7 @@
       color:whitesmoke;
       text-shadow: -1px 1px 0 var(--black), -1px 1px 0 #0a0e27;
       font-size: 4.5vw;
-      position: absolute;
-      z-index: 1;
+
       top: 78vh;
       margin-left: auto;
       margin-right: auto;

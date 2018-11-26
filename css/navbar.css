@@ -4,21 +4,17 @@
 margin-left: 4px;
 }
 .resumeIcon {
-    margin-top:-.5em;
     width:auto;
     height:4.5vh;
 }
 
 .skillsList {
   float:center;
-  margin-top:2em;
   display: inline-flex;
   list-style: none;
 }
 
-i {
-  margin-top: 10px;
-}
+
 
 .imgSkills{
   width: 3vw;
