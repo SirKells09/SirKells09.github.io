@@ -1,9 +1,13 @@
 
-h1{
-  font-family: 'Bilbo Swash Caps', cursive;
 
-  display: inline-flex;
-  font-size: 6vh;
+.jumbo {
+  height:100vh;
+  width:auto;
+  background-attachment: scroll;
+  background-size: cover;
+  background: url("../assets/img/pic783.jpg");
+  display:fixed;
+
 }
 
   
@@ -307,7 +311,7 @@ h1{
   
   /* Desktop */
   .jumbo {
-    background: url("../assets/img/pic365.jpg") center;
+    background: url("../assets/img/pic762.jpg") center;
     background-attachment: fixed;
     background-size: cover;
     height: 100vh;
@@ -317,7 +321,7 @@ h1{
   /* Responsive */
   @media screen and (max-width: 1157px) {
     .jumbo {
-      background: url("../assets/img/pic365.jpg") center;
+      background: url("../assets/img/pic762.jpg") center;
       background-attachment: fixed;
       background-size: cover;
       height: 100vh;
@@ -328,7 +332,7 @@ h1{
   /* Ipad Pro COMPLETE */
   @media screen and (max-width: 1024px) {
     .jumbo {
-      background: url("../assets/img/pic365.jpg") center;
+      background: url("../assets/img/pic762.jpg") center;
       background-attachment: scroll;
       background-size: cover;
     }
@@ -337,7 +341,7 @@ h1{
   /* Ipad COMPLETE */
   @media screen and (max-width: 769px) {
     .jumbo {
-      background: url("../assets/img/pic365.jpg") center;
+      background: url("../assets/img/pic762.jpg") center;
       background-attachment: scroll;
       background-size: cover;
     }
@@ -346,7 +350,7 @@ h1{
   /* Iphone 6/7/8 Plus COMPLETE */
   @media screen and (max-width: 414px) {
     .jumbo {
-      background: url("../assets/img/pic365.jpg") center;
+      background: url("../assets/img/pic762.jpg") center;
       background-attachment: scroll;
       background-size: cover;
     }
@@ -355,7 +359,7 @@ h1{
   /* Pixel 2 & Pixel 2 XL & iPhone 6/7/8 & iPhone X COMPLETE */
   @media screen and (max-width: 412px) {
     .jumbo {
-      background: url("../assets/img/pic365.jpg") center;
+      background: url("../assets/img/pic762.jpg") center;
       background-attachment: scroll;
       background-size: cover;
     }
@@ -364,7 +368,7 @@ h1{
   /* Iphone 5/SE & Galaxy S5 */
   @media screen and (max-width: 375px) {
     .jumbo {
-      background: url("../assets/img/pic365.jpg") center;
+      background: url("../assets/img/pic762.jpg") center;
       background-attachment: scroll;
       background-size: cover;
     }

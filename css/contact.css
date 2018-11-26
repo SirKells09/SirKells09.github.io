@@ -1,11 +1,15 @@
 input {
-  font-family: 'Reenie Beanie', cursive; 
+  font-family: 'Nothing You Could Do', cursive;
     text-align: center;
     width: auto;
   }
   
   label {
     color: white;
+    font-family: 'Nothing You Could Do', cursive;
+  }
+  button {
+    color: whitesmoke;
   }
   
   /* Desktop PC & Responsive */
@@ -30,7 +34,6 @@ input {
     .contactBox {
       margin: auto;
       width: 45vh;
-      top: 20vh;
       text-align: center;
     }
   
@@ -48,7 +51,6 @@ input {
     .contactBox {
       margin: auto;
       width: 55vh;
-      top: 20vh;
       text-align: center;
     }
     .contactBackground {

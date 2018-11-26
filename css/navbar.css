@@ -1,15 +1,13 @@
 
 .navbar-brand {
   font-family: 'Nothing You Could Do';
-
+margin-left: 4px;
 }
 .resumeIcon {
     margin-top:-.5em;
     width:auto;
     height:4.5vh;
 }
-
-
 
 .skillsList {
   float:center;
@@ -25,5 +23,7 @@ i {
 .imgSkills{
   width: 3vw;
   height: auto;
+  color: black;
+
 }
 

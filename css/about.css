@@ -2,55 +2,25 @@
 
 /* about me and pic of me*/
 
-.mr-1 {
-    margin-top:2.3em;
-    margin-left: 1em;
-    width: 60vw;
-    height: auto;
-    float: center;
-    border-radius: .5em;
-  }
+.about {
+  height: 80vh;
+  box-sizing: border-box;
+  display:block;
+}
 
-  .media-body{
-    background-color: beige;
-    width:90vw;
+  .carousel{ 
+    display:block;
 
    
   }
 
-  h2{
-    font-family: 'Nothing You Could Do';
 
-    color: black;
-  }
-  h3{
-    font-family: 'Nothing You Could Do', cursive;
-
-  }
-.lead{
-  font-family: 'Cinzel Decorative', cursive;
-
-   color: whitesmoke;
-  }
-  
-  p {
-    font-family: 'Nothing You Could Do';
-    color: black;
-  
-  }
-  
   span {
     width: 5em;
   }
   
-  .imgskills {
-    color: black;
-  }
-  
-
-
-  
-  a {
+ 
+    a {
     text-align: center;
   
   }
