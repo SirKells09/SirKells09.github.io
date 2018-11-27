@@ -2,19 +2,17 @@
 h1{
     font-family: 'Warnes', cursive;
     color: whitesmoke;
-
-
   }
 
   h2{
 font-family: 'Poiret One', cursive;
-
     color: black;
+    font-size: 18px;
   }
   h3{
-font-family: 'Poiret One', cursive;
+font-family: 'Nothing You Could Do', cursive;
 font-size: 22px;
-
+color: white;
 
   }
   h4 {
@@ -27,5 +25,11 @@ font-family: 'Poiret One', cursive;
   p {
     font-family: 'Nothing You Could Do', cursive;
         color: black;
+      
+      }
+
+      a{
+        font-family: 'Nothing You Could Do', cursive;
+        color: white;
       
       }

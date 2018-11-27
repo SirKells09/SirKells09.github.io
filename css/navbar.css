@@ -12,14 +12,18 @@ margin-left: 4px;
   float:center;
   display: inline-flex;
   list-style: none;
+  margin-right:12em;
+
 }
 
 
 
 .imgSkills{
   width: 3vw;
+  margin-right:12em;
+
   height: auto;
-  color: black;
+  color: white;
 
 }
 

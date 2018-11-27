@@ -1,13 +1,30 @@
-
+/* Desktop PC */
 
 .jumbo {
-  height:100vh;
-  width:auto;
-  background-attachment: scroll;
+  background: url("../assets/img/sir kells photos 656.JPG") center;
+  background-attachment: fixed;
   background-size: cover;
-  background: url("../assets/img/sir kells photos 656.JPG");
-  display:block;
+  height: 100vh;
+  min-width: 100vw;
+  text-align: center;
+}
 
+
+
+/* Responsive */
+@media screen and (max-width: 1159px) {
+  .lead {
+    color: whitesmoke;
+    font-weight: bold;
+    font-family: var(--font4);
+    text-shadow: -1px 1px 0 var(--black), -1px 1px 0 #0a0e27;
+    font-size: 3.5vw;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+  }
+  
 }
 
   
@@ -28,18 +45,7 @@
       right: 0;
     }
   
-    .leadtext {
-      color:whitesmoke;
-      font-weight: bold;
-      font-family: var(--font4);
-      color:whitesmoke;
-      text-shadow: -1px 1px 0 var(--black), -1px 1px 0 #0a0e27;
-      font-size: 3.5vw;
-      margin-left: auto;
-      margin-right: auto;
-      left: 0;
-      right: 0;
-    }
+ 
   }
   
   /* Ipad COMPLETE */
@@ -59,23 +65,141 @@
       right: 0;
     }
   
-    .leadtext {
-      color:whitesmoke;
-      font-weight: bold;
-      font-family: var(--font4);
-      color:whitesmoke;
-      text-shadow: -1px 1px 0 var(--black), -1px 1px 0 #0a0e27;
-      font-size: 3.5vw;
-      margin-left: auto;
-      margin-right: auto;
-      left: 0;
-      right: 0;
-    }
+
   }
+
+  /* Samsung Moto X */
+@media screen and (max-width: 725px) {\  .lead {
+  color:whitesmoke;
+  font-weight: bold;
+  font-family: var(--font4);
+  color:whitesmoke;
+  text-shadow: -1px 1px 0 var(--black), -1px 1px 0 #0a0e27;
+  font-size: 3.5vw;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+}
+
+
+
+}
+/* Iphone 6/7/8 Plus COMPLETE */
+@media screen and (max-width: 414px) {
+  .lead {
+    color:whitesmoke;
+    font-weight: bold;
+    font-family: var(--font4);
+    color:whitesmoke;
+    text-shadow: -1px 1px 0 var(--black), -1px 1px 0 #0a0e27;
+    font-size: 3.5vw;
+  
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+  }
+
+ 
+}
+
+/* Pixel 2 & Pixel 2 XL COMPLETE */
+@media screen and (max-width: 412px) {
+  .lead {
+    color:whitesmoke;
+    font-weight: bold;
+    font-family: var(--font4);
+    color:whitesmoke;
+    text-shadow: -1px 1px 0 var(--black), -1px 1px 0 #0a0e27;
+    font-size: 3.5vw;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+  }
+
+  .leadtext {
+    color:whitesmoke;
+    font-weight: bold;
+    font-family: var(--font4);
+    color:whitesmoke;
+    text-shadow: -1px 1px 0 var(--black), -1px 1px 0 #0a0e27;
+    font-size: 4.5vw;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+  }
+}
+
+
+/* iPhone 6/7/8 & iPhone X COMPLETE */
+@media screen and (max-width: 400px) {
+  .lead {
+    color:whitesmoke;
+    font-weight: bold;
+    font-family: var(--font4);
+    color:whitesmoke;
+    text-shadow: -1px 1px 0 var(--black), -1px 1px 0 #0a0e27;
+    font-size: 3.5vw;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+  }
+
+  .leadtext {
+    color:whitesmoke;
+    font-weight: bold;
+    font-family: var(--font4);
+    color:whitesmoke;
+    text-shadow: -1px 1px 0 var(--black), -1px 1px 0 #0a0e27;
+    font-size: 4.5vw;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+  }
+
+}
+/* Galaxy S5 */
+@media screen and (max-width: 375px) {
+  .lead {
+    color:whitesmoke;
+    font-weight: bold;
+    font-family: var(--font4);
+    color:whitesmoke;
+    text-shadow: -1px 1px 0 var(--black), -1px 1px 0 #0a0e27;
+    font-size: 3.5vw;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+  }
+
+ 
+}
+/* Iphone 5/SE */
+@media screen and (max-width: 330px) {
+  .lead {
+    color:whitesmoke;
+    font-weight: bold;
+    font-family: var(--font4);
+    color:whitesmoke;
+    text-shadow: -1px 1px 0 var(--black), -1px 1px 0 #0a0e27;
+    font-size: 3.5vw;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+  }
+
+  
+}
   
   /* Iphone 6/7/8 Plus COMPLETE */
   @media screen and (max-width: 414px) {
-
     .lead {
       color:whitesmoke;
       font-weight: bold;
@@ -83,30 +207,17 @@
       color:whitesmoke;
       text-shadow: -1px 1px 0 var(--black), -1px 1px 0 #0a0e27;
       font-size: 3.5vw;
+      margin-left: auto;
+      margin-right: auto;
+      left: 0;
+      right: 0;
     
-      margin-left: auto;
-      margin-right: auto;
-      left: 0;
-      right: 0;
-    }
-  
-    .leadtext {
-      color:whitesmoke;
-      font-weight: bold;
-      font-family: var(--font4);
-      color:whitesmoke;
-      text-shadow: -1px 1px 0 var(--black), -1px 1px 0 #0a0e27;
-      font-size: 4vw;
-      margin-left: auto;
-      margin-right: auto;
-      left: 0;
-      right: 0;
-    }
+    }   
   }
+    
   
   /* Pixel 2 & Pixel 2 XL & iPhone 6/7/8 & iPhone X COMPLETE */
   @media screen and (max-width: 412px) {
-  
     .lead {
       color:whitesmoke;
       font-weight: bold;
@@ -119,25 +230,12 @@
       left: 0;
       right: 0;
     }
-  
-    .leadtext {
-      color:whitesmoke;
-      font-weight: bold;
-      font-family: var(--font4);
-      color:whitesmoke;
-      text-shadow: -1px 1px 0 var(--black), -1px 1px 0 #0a0e27;
-      font-size: 4.5vw;
-      margin-left: auto;
-      margin-right: auto;
-      left: 0;
-      right: 0;
     }
-  }
+  
   
   /* Iphone 5/SE & Galaxy S5 */
   @media screen and (max-width: 375px) {
  
-  
     .lead {
       color:whitesmoke;
       font-weight: bold;
@@ -150,84 +248,4 @@
       left: 0;
       right: 0;
     }
-  
-    .leadtext {
-      color:whitesmoke;
-      font-weight: bold;
-      font-family: var(--font4);
-      color:whitesmoke;
-      text-shadow: -1px 1px 0 var(--black), -1px 1px 0 #0a0e27;
-      font-size: 4.5vw;
-      margin-left: auto;
-      margin-right: auto;
-      left: 0;
-      right: 0;
-    }
-  }
-  
-  /* BACKGROUND IMAGE */
-  
-  /* Desktop */
-  .jumbo {
-    background: url("../assets/img/sir kells photos 656.JPG") center;
-    background-attachment: fixed;
-    background-size: cover;
-    height: 100vh;
-    text-align: center;
-  }
-  
-  /* Responsive */
-  @media screen and (max-width: 1157px) {
-    .jumbo {
-      background: url("../assets/img/sir kells photos 656.JPG") center;
-      background-attachment: fixed;
-      background-size: cover;
-      height: 100vh;
-      text-align: center;
-    }
-  }
-  
-  /* Ipad Pro COMPLETE */
-  @media screen and (max-width: 1024px) {
-    .jumbo {
-      background: url("../assets/img/sir kells photos 656.JPG") center;
-      background-attachment: scroll;
-      background-size: cover;
-    }
-  }
-  
-  /* Ipad COMPLETE */
-  @media screen and (max-width: 769px) {
-    .jumbo {
-      background: url("../assets/img/sir kells photos 656.JPG") center;
-      background-attachment: scroll;
-      background-size: cover;
-    }
-  }
-  
-  /* Iphone 6/7/8 Plus COMPLETE */
-  @media screen and (max-width: 414px) {
-    .jumbo {
-      background: url("../assets/img/sir kells photos 656.JPG") center;
-      background-attachment: scroll;
-      background-size: cover;
-    }
-  }
-  
-  /* Pixel 2 & Pixel 2 XL & iPhone 6/7/8 & iPhone X COMPLETE */
-  @media screen and (max-width: 412px) {
-    .jumbo {
-      background: url("../assets/img/sir kells photos 656.JPG") center;
-      background-attachment: scroll;
-      background-size: cover;
-    }
-  }
-  
-  /* Iphone 5/SE & Galaxy S5 */
-  @media screen and (max-width: 375px) {
-    .jumbo {
-      background: url("../assets/img/sir kells photos 656.JPG") center;
-      background-attachment: scroll;
-      background-size: cover;
-    }
-  }
+}
